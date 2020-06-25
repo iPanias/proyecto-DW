@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Muebles</title>
+    
+   <!--     <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="stylesheet" href="./css/font.css">
+   <link rel="stylesheet" href="./css/iconos.css">-->
+
+<script src="./js/jquery-3.5.1.min.js"></script>
+
+    <style type="text/css" media="screen">
+
+        @import './css/styles.css';
+        @import './css/font.css';
+        @import './css/iconos.css';
+
+    </style>
+
+
+<script>
+
+    $(document).ready(function(){
+
+        $("body").hide().fadeIn(1050); /* Efecto hide la velicidad es en mili segundos */
+    });
+
+</script>
+
+ 
+
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container container--flex">
+
+            <div class="logo-container column column--50">
+                <h1 class="logo">Tienda 2Pac</h1>
+            </div>
+
+            <div class="main-header__contacInfo column   column--50">
+
+                <p class="main-header__contaInfo__phone ">
+                    <span class="icon-phone"> 1111-1111</span>
+                </p>
+
+                <p class="main-header__contacInfo__address">
+                    <span class="icon-location">Calle A sonsonate</span>
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Creacion del Menu-->
+    <nav class="main-nav">
+        <div class="container container-flex">
+            <span class="icon-menu" id="btn-menu"> </span>
+
+
+            <ul class="menu" id="menu">
+                <li class="menu__item "><a href="/" class="menu__link  menu_link--select ">inicio</a></li>
+                <li class="menu__item "><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item "><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="botonContacto.html" class="menu__link">Contacto</a></li>
+                <li class="menu__item"><a href="MasProductos.html" class="menu__link">Mas Sobre Nuestros Productos </a></li>
+            </ul>
+
+
+<!-- 
+
+    Comento para probar por que no funciona la clase como deberia
+    
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+ -->
+
+    </nav>
+    
+    <!--Imagen del menu de la pagina principal-->
+    <section class="banner">
+        <img src="./img/logo1.jpg" alt="" class="banner__img">
+        <div class="banner__content"> <!-- Somos tu mejor Opcion :V --> </div>
+    </section>
+
+
+        <main class="main">
+            <section class="group group--color">
+                <div class="container">
+                    <h2 class="main__title">Bienvenido a la Tienda 2Pac</h2>
+                    <p class="main__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ab iure excepturi. Asperiores modi eaque cumque neque natus deserunt quos, totam id porro nisi eos excepturi mollitia minus fuga eum.</p>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="main__about__description group">
+
+                <div class="container container--flex">
+
+                    <div class="column column--50"> <img src="./img/audifonos.jpg" alt="">
+                    </div>
+                    <div class="column column--50"> 
+                        <h3 class="column__title"> Visitanos Tenemos lo que necesitas</h3>
+                        <p class="column__txt"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eius magni commodi, exercitationem alias temporibus nostrum praesentium autem nulla voluptatibus minus, nemo hic, amet id enim molestiae distinctio cum saepe.</p>
+                        <a href="botonContacto.html" class="btn btn--contact">Contacto</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+
+            <!--Seccion de ofertas parte 3 de la pag-->
+            <section class="group today-special">
+                <h2 class="group__title">Ofertas</h2>
+                <div class="container container--flex">
+                    <div class="column column--50-25">
+                        <img src="./img/mouse.jpg" alt="" class="today-special__img">
+                        <div class="today-special__title">Ofertas Especiales</div>
+                        <div class="today-special__price">$200</div>
+                    </div>
+                    <div class="column column--50-25">
+                        <img src="./img/pc1.jpg" alt="" class="today-special__img">
+                        <div class="today-special__title">Ofertas Especiales</div>
+                        <div class="today-special__price">$200</div>
+                    </div>
+                    <div class="column column--50-25">
+                        <img src="./img/pc2.jpg" alt="" class="today-special__img">
+                        <div class="today-special__title">Ofertas Especiales</div>
+                        <div class="today-special__price">$200</div>
+                    </div>
+                    <div class="column column--50-25">
+                        <img src="./img/pc3.jpg" alt="" class="today-special__img">
+                        <div class="today-special__title">Ofertas Especiales</div>
+                        <div class="today-special__price">$200</div>
+                    </div>
+                </div>
+            </section>      
+
+
+
+
+        </main>
+
+
+
+            <footer class="main-footer ">
+
+                <div class="container container--flex">
+                    <div class="column column--33">
+
+                        <h2 class="column__title">Por que Visitanos</h2>
+                        <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum velit sed veritatis et voluptatibus </p>
+                     
+
+                    </div>
+
+ 
+                    <div class="column column--33">
+
+                        <h2 class="column__title">Contactanos</h2>
+                        <p class="column__txt icon-location">Calle a sonsonate</p>
+                        <p class="column__txt icon-phone">5555555</p>
+                        <p class="column__txt icon-mail">1233@gmail.com</p>
+
+
+                    </div>
+
+
+                    <div class="column column--33">
+
+                        <h2 class="column__title">Siguenos en nuestras redes sociales</h2>
+                        <p class="column__txt"> <a href="" class="icon-facebook">Facebook</a></p>
+                        <p class="column__txt"> <a href="" class="icon-twitter">Twtter</a></p>
+                        <p class="column__txt"> <a href="" class="icon-youtube">visita nuestro Canal</a></p>
+
+                    </div>
+
+                    <p class="copy"> &copy; Zapateria 2Pac 2020</p>
+
+                </div>
+                
+            </footer>
+
+
+            <script src="./js/menu.js"></script>
+
+</body>
+</html>
